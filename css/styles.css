@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 222, 222);
+    font-size: larger;
+} 
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px;
+    background-image: url("../images/inspector.jpg");
+    background-size: cover;
+    height: 190px;
+    text-shadow: white 1px 1px, white 1px 1px, white 1px 1px, white 1px 1px;
+    font-size: 25px;
+}
+h1{
+    color: rgb(43, 39, 39);
+}
+h2 {
+    color: rgb(110, 109, 109);
+    text-shadow: black .25px .25px, black .25px .25px, black .25px .25px, black .25px .25px;
+}
+#slogan{
+    margin-top: 0px;
+    text-shadow: white 1px 1px, white 1px 1px, white 1px 1px, white 1px 1px;
+}
+
+h3{
+    color: rgb(178, 126, 126);
+}
+li{
+    color:rgb(210, 105, 105);
+    margin-left: 23px;
+}
+main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 105, 105);
+    max-height: auto;  
+    max-width: 800px;
+    margin: auto; 
+}
+.info{
+    color: rgb(210, 105, 105);
+    text-shadow: black .25px .25px, black .25px .25px, black .25px .25px, black .25px .25px;
+    padding-left: 46px;
+}
+footer p{
+    color: rgb(43, 39, 39);
+    margin: auto;
+    text-shadow: white .25px .25px, white .25px .25px, white .25px .25px, white .25px .25px;
+}
+li::marker{
+content: "💎"
+}
+ul{
+    color: rgb(69, 69, 69);
+}
